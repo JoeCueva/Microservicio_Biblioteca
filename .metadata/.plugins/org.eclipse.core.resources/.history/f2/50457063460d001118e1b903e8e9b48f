@@ -1,0 +1,101 @@
+package com.cibertec.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cibertec.biblioteca_Entity.Rol;
+import com.cibertec.biblioteca_Entity.Trabajadores;
+import com.cibertec.dto.TrabajadoresResponse;
+import com.cibertec.mapper.TrabajadoresMapper;
+import com.cibertec.repository.IRolRepository;
+import com.cibertec.repository.ITrabajadoresRepository;
+
+@Service
+public class TrabajadoresService {
+
+	@Autowired
+	private ITrabajadoresRepository trabajadoresRepository;
+
+	@Autowired
+	private IRolRepository rolRepository;
+
+	private TrabajadoresMapper mapper = new TrabajadoresMapper();
+
+	public List<TrabajadoresResponse> listarTrabajadores() {
+		return trabajadoresRepository.findAll().stream().map(mapper::toResponse).toList();
+	}
+
+	public TrabajadoresResponse buscarPorId(Integer id) {
+		Trabajadores trabajador = trabajadoresRepository.findById(id)
+				.orElseThrow(() -> new RuntimeException("Trabajador no encontrado con ID: " + id));
+		return mapper.toResponse(trabajador);
+	}
+
+	public TrabajadoresResponse nuevoTrabajador(Trabajadores trabajadores) {
+
+		if (trabajadores.getRol() == null || trabajadores.getRol().getId_rol() == null) {
+			throw new RuntimeException("Debe enviar el id del rol");
+		}
+
+		Integer idRol = trabajadores.getRol().getId_rol();
+
+		if (!(idRol == 1 || idRol == 2 || idRol == 3)) {
+			throw new RuntimeException("Rol no permitido. Solo se permiten roles 1, 2 o 3");
+		}
+
+		Rol rolBD = rolRepository.findById(idRol).orElseThrow(() -> new RuntimeException("El rol no existe en la BD"));
+
+		if (idRol == 1 && trabajadoresRepository.contarPorRol(1) > 0) {
+			throw new RuntimeException("Ya existe un Administrador registrado");
+		}
+
+		if (trabajadoresRepository.existsByEmail(trabajadores.getEmail())) {
+			throw new RuntimeException("El email " + trabajadores.getEmail() + " ya está registrado");
+		}
+
+		trabajadores.setRol(rolBD);
+
+		return mapper.toResponse(trabajadoresRepository.save(trabajadores));
+	}
+
+	public TrabajadoresResponse editarTrabajador(Integer id, Trabajadores trabajadores) {
+		Trabajadores existente = trabajadoresRepository.findById(id)
+				.orElseThrow(() -> new RuntimeException("Trabajador no encontrado con ID: " + id));
+
+		if (!existente.getEmail().equals(trabajadores.getEmail())
+				&& trabajadoresRepository.existsByEmail(trabajadores.getEmail())) {
+			throw new RuntimeException("El email " + trabajadores.getEmail() + " ya está registrado");
+		}
+
+		existente.setNombre(trabajadores.getNombre());
+		existente.setApellido(trabajadores.getApellido());
+		existente.setEmail(trabajadores.getEmail());
+		existente.setEdad(trabajadores.getEdad());
+		existente.setPassword(trabajadores.getPassword());
+
+		if (trabajadores.getRol() != null && trabajadores.getRol().getId_rol() != null) {
+			Rol rolBD = rolRepository.findById(trabajadores.getRol().getId_rol())
+					.orElseThrow(() -> new RuntimeException("Rol no encontrado"));
+			existente.setRol(rolBD);
+		}
+
+		return mapper.toResponse(trabajadoresRepository.save(existente));
+	}
+
+	public void eliminarTrabajador(Integer id) {
+		if (!trabajadoresRepository.existsById(id)) {
+			throw new RuntimeException("Trabajador no encontrado con ID: " + id);
+		}
+		trabajadoresRepository.deleteById(id);
+	}
+
+	public Long contarBibliotecarios() {
+		return trabajadoresRepository.contarPorRol(3);
+	}
+
+	public Long contarAuxiliares() {
+		return trabajadoresRepository.contarPorRol(2);
+	}
+}

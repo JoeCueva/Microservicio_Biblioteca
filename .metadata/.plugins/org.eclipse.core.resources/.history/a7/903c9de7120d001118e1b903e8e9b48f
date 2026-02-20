@@ -1,0 +1,2 @@
+spring.application.name=usuario-service
+spring.config.import=optional:Configserver:http://localhost:8888

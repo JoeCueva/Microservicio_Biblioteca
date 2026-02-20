@@ -1,0 +1,9 @@
+spring.application.name=Libros
+server.port=1001
+
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
+
+app.queue.log=libros-queue

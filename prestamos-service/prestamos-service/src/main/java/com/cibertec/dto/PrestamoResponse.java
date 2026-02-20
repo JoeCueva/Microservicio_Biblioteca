@@ -1,0 +1,113 @@
+package com.cibertec.dto;
+
+import com.cibertec.biblioteca_Entity.Autores;
+import com.cibertec.biblioteca_Entity.Categoria;
+
+public class PrestamoResponse {
+
+	private Integer prestamoId;
+	private String fechaPrestamo;
+	private String fechaDevolucion;
+	private String fechaReal;
+	private double multa;
+	private String comentarios;
+
+	// Datos del usuario
+	private UsuarioDto usuario;
+
+	// Datos del libro
+	private LibroDto libro;
+	
+	private EstadoPrestamoDto estadoPrestamo;
+
+	public PrestamoResponse() {
+		super();
+	}
+
+	public PrestamoResponse(Integer prestamoId, String fechaPrestamo, String fechaDevolucion, String fechaReal,
+			double multa, String comentarios, UsuarioDto usuario, LibroDto libro, EstadoPrestamoDto estadoPrestamo) {
+		super();
+		this.prestamoId = prestamoId;
+		this.fechaPrestamo = fechaPrestamo;
+		this.fechaDevolucion = fechaDevolucion;
+		this.fechaReal = fechaReal;
+		this.multa = multa;
+		this.comentarios = comentarios;
+		this.usuario = usuario;
+		this.libro = libro;
+		this.estadoPrestamo = estadoPrestamo;
+	}
+
+	public Integer getPrestamoId() {
+		return prestamoId;
+	}
+
+	public void setPrestamoId(Integer prestamoId) {
+		this.prestamoId = prestamoId;
+	}
+
+	public String getFechaPrestamo() {
+		return fechaPrestamo;
+	}
+
+	public void setFechaPrestamo(String fechaPrestamo) {
+		this.fechaPrestamo = fechaPrestamo;
+	}
+
+	public String getFechaDevolucion() {
+		return fechaDevolucion;
+	}
+
+	public void setFechaDevolucion(String fechaDevolucion) {
+		this.fechaDevolucion = fechaDevolucion;
+	}
+
+	public String getFechaReal() {
+		return fechaReal;
+	}
+
+	public void setFechaReal(String fechaReal) {
+		this.fechaReal = fechaReal;
+	}
+
+	public double getMulta() {
+		return multa;
+	}
+
+	public void setMulta(double multa) {
+		this.multa = multa;
+	}
+
+	public String getComentarios() {
+		return comentarios;
+	}
+
+	public void setComentarios(String comentarios) {
+		this.comentarios = comentarios;
+	}
+
+	public UsuarioDto getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(UsuarioDto usuario) {
+		this.usuario = usuario;
+	}
+
+	public LibroDto getLibro() {
+		return libro;
+	}
+
+	public void setLibro(LibroDto libro) {
+		this.libro = libro;
+	}
+
+	public EstadoPrestamoDto getEstadoPrestamo() {
+		return estadoPrestamo;
+	}
+
+	public void setEstadoPrestamo(EstadoPrestamoDto estadoPrestamo) {
+		this.estadoPrestamo = estadoPrestamo;
+	}
+	
+}

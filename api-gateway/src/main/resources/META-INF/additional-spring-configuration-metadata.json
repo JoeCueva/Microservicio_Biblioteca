@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "spring.cloud.gateway.server.webflux.httpclient.connect-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.httpclient.connect-timeout'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.default-filters[0]",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.default-filters[0]'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.httpclient.response-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.httpclient.response-timeout'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.discovery.locator.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.discovery.locator.enabled'"
+  }
+]}

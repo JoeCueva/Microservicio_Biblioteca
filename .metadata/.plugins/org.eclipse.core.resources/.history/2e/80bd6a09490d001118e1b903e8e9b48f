@@ -1,0 +1,16 @@
+package com.cibertec.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.cibertec.biblioteca_Entity.Trabajadores;
+
+@Repository
+public interface ITrabajadoresRepository extends JpaRepository<Trabajadores, Integer> {
+	 boolean existsByEmail(String email);
+
+	    // Contar trabajadores por rol
+	    @Query("SELECT COUNT(t) FROM Trabajadores t WHERE t.rol.id_rol = :idRol")
+	    Long contarPorRol(Integer idRol);
+}

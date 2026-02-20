@@ -1,0 +1,7 @@
+spring.application.name=Config-server
+server.port=8888
+
+spring.profiles.active=native
+spring.cloud.config.server.native.search-locations=file:///D:/PC_Sebas/02_Estudios_Instituto/01_Ciclos/Ciclo 6/01_DesarrolloAplicacionesWeb_II/03_Contenedor/Config-server/config-repo
+
+

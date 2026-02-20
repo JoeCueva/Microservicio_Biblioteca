@@ -1,0 +1,136 @@
+package com.cibertec.service;
+
+import java.util.List;
+import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+import com.cibertec.biblioteca_Entity.Rol;
+import com.cibertec.biblioteca_Entity.Trabajadores;
+import com.cibertec.dto.TrabajadoresResponse;
+import com.cibertec.mapper.TrabajadoresMapper;
+import com.cibertec.repository.IRolRepository;
+import com.cibertec.repository.ITrabajadoresRepository;
+import com.cibertec.security.JwtUtil;
+
+@Service
+public class TrabajadoresService {
+
+	@Autowired
+	private ITrabajadoresRepository trabajadoresRepository;
+
+	@Autowired
+	private IRolRepository rolRepository;
+
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+
+	@Autowired
+	private JwtUtil jwtUtil;
+
+	private TrabajadoresMapper mapper = new TrabajadoresMapper();
+
+	public List<TrabajadoresResponse> listarTrabajadores() {
+		return trabajadoresRepository.findAll().stream().map(mapper::toResponse).toList();
+	}
+
+	public TrabajadoresResponse buscarPorId(Integer id) {
+        Trabajadores trabajador = trabajadoresRepository.findById(id)
+            .orElseThrow(() -> new RuntimeException("Trabajador no encontrado con ID: " + id));
+        return mapper.toResponse(trabajador);
+    }
+
+	public Trabajadores login(String email, String password) {
+		Trabajadores encontrado = trabajadoresRepository.findByEmail(email)
+				.orElseThrow(() -> new RuntimeException("Trabajador/Usuario no encontrado"));
+
+		if (!passwordEncoder.matches(password, encontrado.getPassword())) {
+			throw new RuntimeException("Contraseña incorrecta");
+		}
+
+		return encontrado;
+	}
+
+	public TrabajadoresResponse crearAdmin(Trabajadores nuevo) {
+		Optional<Trabajadores> adminExistente = trabajadoresRepository.findByRol_Roles("Administrador");
+
+		if (adminExistente.isPresent()) {
+			throw new RuntimeException(
+					"Ya existe un administrador en el sistema. No se pueden crear más administradores.");
+		}
+
+		Optional<Trabajadores> emailExistente = trabajadoresRepository.findByEmail(nuevo.getEmail());
+		if (emailExistente.isPresent()) {
+			throw new RuntimeException("El email ya está registrado en el sistema");
+		}
+
+		Rol adminRol = rolRepository.findByRoles("Administrador").orElseThrow(() -> new RuntimeException("Rol Administrador no existe en la BD"));
+
+		nuevo.setRol(adminRol);
+		nuevo.setPassword(passwordEncoder.encode(nuevo.getPassword()));
+
+		return mapper.toResponse(trabajadoresRepository.save(nuevo));
+	}
+
+	public TrabajadoresResponse crearPorRol(Trabajadores nuevo, String nombreRol) {
+		// Validar email
+		if (trabajadoresRepository.existsByEmail(nuevo.getEmail())) {
+			throw new RuntimeException("El email " + nuevo.getEmail() + " ya está registrado");
+		}
+
+		Rol rol = rolRepository.findByRoles(nombreRol)
+				.orElseThrow(() -> new RuntimeException("Rol no existente: " + nombreRol));
+
+		nuevo.setRol(rol);
+		nuevo.setPassword(passwordEncoder.encode(nuevo.getPassword()));
+
+		return mapper.toResponse(trabajadoresRepository.save(nuevo));
+	}
+
+	public TrabajadoresResponse editarTrabajador(Integer id, Trabajadores trabajadores) {
+		Trabajadores existente = trabajadoresRepository.findById(id)
+				.orElseThrow(() -> new RuntimeException("Trabajador no encontrado con ID: " + id));
+
+		if (!existente.getEmail().equals(trabajadores.getEmail())
+				&& trabajadoresRepository.existsByEmail(trabajadores.getEmail())) {
+			throw new RuntimeException("El email " + trabajadores.getEmail() + " ya está registrado");
+		}
+
+		existente.setNombre(trabajadores.getNombre());
+		existente.setApellido(trabajadores.getApellido());
+		existente.setEmail(trabajadores.getEmail());
+		existente.setEdad(trabajadores.getEdad());
+
+		return mapper.toResponse(trabajadoresRepository.save(existente));
+	}
+
+	public void cambiarPassword(Integer id, String nuevaPassword) {
+		Trabajadores cambiar = trabajadoresRepository.findById(id)
+				.orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
+
+		cambiar.setPassword(passwordEncoder.encode(nuevaPassword));
+		trabajadoresRepository.save(cambiar);
+	}
+
+	public void eliminarTrabajador(Integer id) {
+		if (!trabajadoresRepository.existsById(id)) {
+			throw new RuntimeException("Trabajador no encontrado con ID: " + id);
+		}
+		trabajadoresRepository.deleteById(id);
+	}
+
+	public Trabajadores getTrabajadorLogueado(String token) {
+		String email = jwtUtil.obtenerUsername(token);
+		return trabajadoresRepository.findByEmail(email)
+				.orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
+	}
+
+	// Conteo para dashboard
+	public Long contarBibliotecarios() {
+		return trabajadoresRepository.contarPorRol(3);
+	}
+
+	public Long contarAuxiliares() {
+		return trabajadoresRepository.contarPorRol(2);
+	}
+}
