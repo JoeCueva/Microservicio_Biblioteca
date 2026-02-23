@@ -39,14 +39,14 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity"/>
+			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service"/>
 			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service"/>
 			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service"/>
 			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway"/>
 			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\eureka-server"/>
 			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server"/>
-			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service"/>
 			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros"/>
-			<item value="C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

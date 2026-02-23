@@ -21,7 +21,4 @@ public class EstadoLibroDTO {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-	
-	
-	
 }

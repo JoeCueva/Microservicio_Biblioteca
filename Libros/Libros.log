@@ -811,3 +811,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2026-02-19T20:08:41.549-05:00  INFO 29508 --- [Libros] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
 2026-02-19T20:08:41.549-05:00  INFO 29508 --- [Libros] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
 2026-02-19T20:08:41.579-05:00  INFO 29508 --- [Libros] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-02-19T20:13:11.171-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:18:11.175-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:23:11.183-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:28:11.197-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:33:11.200-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:38:11.213-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:45:37.634-05:00  WARN 29508 --- [Libros] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m59s552ms396µs100ns).
+2026-02-19T20:47:40.775-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:52:40.781-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-02-19T20:57:40.789-05:00  INFO 29508 --- [Libros] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

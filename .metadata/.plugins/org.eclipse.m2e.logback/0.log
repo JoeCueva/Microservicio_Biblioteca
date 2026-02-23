@@ -1955,3 +1955,649 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2026-02-19 20:08:20,560 [Worker-43: Launching usuario-service - UsuarioServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier null to /biblioteca-Entity/target/classes
 2026-02-19 20:08:20,989 [Worker-43: Launching usuario-service - UsuarioServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier null to /biblioteca-Entity/target/classes
 2026-02-19 20:08:21,398 [Worker-43: Launching usuario-service - UsuarioServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier null to /biblioteca-Entity/target/classes
+2026-02-19 20:10:37,036 [Worker-43: Launching trabajadores-service - TrabajadoresServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier null to /biblioteca-Entity/target/classes
+2026-02-19 20:10:37,483 [Worker-43: Launching trabajadores-service - TrabajadoresServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier null to /biblioteca-Entity/target/classes
+2026-02-19 20:10:37,909 [Worker-43: Launching trabajadores-service - TrabajadoresServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier null to /biblioteca-Entity/target/classes
+2026-02-20 00:18:07,588 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-02-20 00:20:06,219 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:06,234 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:06,446 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:06,451 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,299 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,305 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,494 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,499 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,629 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,633 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,811 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,816 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,942 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:07,946 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,257 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,261 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,587 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,591 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,728 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,732 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,895 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:08,899 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,061 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,065 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,207 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,212 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,327 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,330 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,800 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-amqp/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:09,807 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-amqp/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,293 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,298 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,523 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,529 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,715 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,719 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,836 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:10,842 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:11,010 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:11,017 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:11,115 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 00:20:11,117 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-20 00:20:11,151 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 00:20:11,695 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:11,700 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:20:11,985 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:20:12,020 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:20:12,029 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-20 00:20:42,422 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 00:20:42,499 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 00:20:42,686 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:20:42,705 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:20:42,718 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 00:30:13,098 [Worker-18: Launching api-gateway - ApiGatewayApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-webflux/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:30:13,103 [Worker-19: Launching eureka-server - EurekaServerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-freemarker/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:30:13,105 [Worker-18: Launching api-gateway - ApiGatewayApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-webflux/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:30:13,110 [Worker-19: Launching eureka-server - EurekaServerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-freemarker/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:30:13,288 [Worker-18: Launching api-gateway - ApiGatewayApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-reactor-netty/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:30:13,300 [Worker-18: Launching api-gateway - ApiGatewayApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-reactor-netty/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-20 00:32:34,120 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:32:34,151 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:32:34,167 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-20 00:32:38,909 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:32:38,911 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:32:38,915 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-20 00:33:18,404 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:33:18,426 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:33:18,433 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\eureka-server\src\test\resources
+2026-02-20 00:33:35,614 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:33:35,615 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:33:35,618 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-20 00:34:04,067 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:34:04,068 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 00:34:04,071 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\eureka-server\src\test\resources
+2026-02-20 00:34:18,021 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:34:18,044 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:34:18,060 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway\src\test\resources
+2026-02-20 00:34:23,616 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:34:23,622 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:34:23,626 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway\src\test\resources
+2026-02-20 00:52:48,167 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:52:48,195 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 00:52:48,198 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway\src\test\resources
+2026-02-20 01:15:18,559 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:15:18,562 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:15:18,567 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway\src\test\resources
+2026-02-20 01:15:37,629 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:15:37,630 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:15:37,633 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-20 01:15:46,725 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:15:46,726 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:15:46,731 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\eureka-server\src\test\resources
+2026-02-20 01:45:18,305 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:45:18,315 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:45:18,329 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 01:45:32,643 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:45:32,645 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:45:32,650 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 01:45:37,693 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:45:37,694 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:45:37,700 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 01:51:49,952 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:51:49,953 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:51:49,958 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 01:54:55,848 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:54:55,850 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:54:55,857 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 01:57:12,766 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 01:57:13,017 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 01:57:13,086 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 01:57:13,098 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-20 02:03:05,734 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-20 02:03:06,617 [Worker-55: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 02:03:06,626 [Worker-55: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:03:07,416 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+2026-02-20 02:03:08,267 [Worker-55: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:03:08,271 [Worker-55: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-20 02:03:08,325 [Worker-55: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 02:03:09,924 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:09,926 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:09,935 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:03:12,163 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:03:12,241 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:12,248 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:03:45,475 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-20 02:03:46,532 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+2026-02-20 02:03:47,426 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:03:47,429 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-20 02:03:48,552 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:48,553 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:48,558 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:03:49,271 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:03:49,301 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:49,307 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-20 02:03:51,088 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:03:51,116 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:03:51,121 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:04:20,481 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-20 02:04:21,155 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:04:21,227 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 02:04:21,647 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+2026-02-20 02:04:22,356 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:04:22,357 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-20 02:04:22,389 [Worker-58: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 02:04:23,456 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:04:23,457 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:04:23,462 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:04:24,089 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:04:24,092 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:04:24,098 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-20 02:04:25,816 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:04:25,852 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:04:25,859 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:05:37,911 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-20 02:05:38,920 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+2026-02-20 02:05:39,571 [Worker-54: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:05:39,573 [Worker-54: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-20 02:05:40,785 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:05:40,787 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:05:40,793 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:05:41,403 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:05:41,410 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:05:41,418 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-20 02:05:42,950 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:05:42,979 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:05:42,985 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:07:13,004 [Worker-63: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-20 02:07:13,767 [Worker-63: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:07:13,853 [Worker-63: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 02:07:14,287 [Worker-63: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+2026-02-20 02:07:14,707 [Worker-63: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-20 02:07:14,709 [Worker-63: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-20 02:07:14,733 [Worker-63: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-20 02:07:15,661 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:07:15,662 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:07:15,667 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:07:16,151 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:07:16,154 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:07:16,159 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-20 02:07:17,735 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:07:17,762 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:07:17,770 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:07:48,369 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:07:48,372 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:07:48,380 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:11:36,936 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:11:36,937 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:11:36,942 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:23:43,362 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-20 02:23:43,412 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:23:43,418 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-20 02:24:34,887 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:24:34,888 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:24:34,893 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:24:55,362 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:24:55,365 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:24:55,372 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:30:42,958 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:30:42,960 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:30:42,968 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:33:06,493 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:33:06,495 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:33:06,502 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:37:03,152 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:37:03,154 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:37:03,159 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:39:32,532 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:39:32,534 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:39:32,543 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:39:40,881 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:39:40,884 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:39:40,892 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:40:33,409 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:40:33,410 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:40:33,415 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:41:01,700 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:41:01,701 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:41:01,707 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:41:25,513 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:41:25,513 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:41:25,517 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:41:49,734 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:41:49,734 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:41:49,768 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:42:03,821 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:42:03,823 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:42:03,831 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:51:55,425 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:51:55,426 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:51:55,431 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:52:12,758 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:52:12,759 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:52:12,762 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:53:14,765 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:53:14,766 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:53:14,769 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:53:30,791 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:53:30,793 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:53:30,796 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:54:25,755 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:54:25,757 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:54:25,767 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 02:57:21,685 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:57:21,686 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 02:57:21,689 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:02:14,555 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:02:14,556 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:02:14,559 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:04:38,098 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:04:38,099 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:04:38,101 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:04:46,335 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:04:46,336 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:04:46,339 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:04:58,468 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:04:58,469 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:04:58,471 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:05:00,568 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:05:00,569 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:05:00,573 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:05:15,521 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:05:15,521 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:05:15,524 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:12:06,862 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:12:06,863 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:12:06,866 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:14:11,929 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:14:11,930 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:14:11,933 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:15:45,037 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:15:45,038 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:15:45,041 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:28:00,169 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:28:00,169 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:28:00,174 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-20 03:31:04,349 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:31:04,350 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-20 03:31:04,354 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 13:58:09,892 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-02-21 14:19:57,677 [Worker-16: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 14:19:57,740 [Worker-16: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 14:19:58,186 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 14:19:58,211 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 14:19:58,218 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 14:32:20,057 [Worker-18: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 14:32:36,889 [Worker-16: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 14:32:37,171 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 14:32:37,205 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 14:32:37,223 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 14:35:44,078 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:44,104 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:44,227 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:44,237 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,072 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,081 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,201 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,207 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,353 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,360 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,541 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,549 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,696 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,703 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,931 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:45,936 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,201 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,206 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,351 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,358 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,548 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,554 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,714 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,719 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,864 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:46,872 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,019 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,048 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,409 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-amqp/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,414 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-amqp/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,779 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,787 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,954 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:47,960 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,074 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,078 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,208 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,215 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,375 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,380 [Worker-20: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:35:48,521 [Worker-20: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 14:35:48,524 [Worker-20: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-21 14:35:48,561 [Worker-20: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 14:37:36,833 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-webflux/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:37:36,840 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-webflux/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:37:37,014 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-reactor-netty/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:37:37,022 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-reactor-netty/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:41:33,239 [Worker-23: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-freemarker/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 14:41:33,250 [Worker-23: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-freemarker/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 15:58:28,742 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 15:58:28,746 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 15:58:28,753 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 15:59:15,739 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 15:59:15,741 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 15:59:15,748 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 15:59:26,677 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 15:59:26,678 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 15:59:26,685 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 16:00:16,215 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 16:00:16,222 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-21 16:00:16,513 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:00:16,563 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:00:16,571 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-21 16:00:28,757 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:00:28,759 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:00:28,768 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-21 16:01:01,201 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:01:01,236 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:01:01,248 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:01:16,419 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:01:16,420 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:01:16,424 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:01:24,689 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:01:24,691 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:01:24,695 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:02:00,699 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:02:00,718 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:02:00,726 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-21 16:23:17,796 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:23:17,799 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:23:17,804 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-21 16:24:38,133 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:24:38,134 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:24:38,152 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 16:24:45,514 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:24:45,515 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:24:45,525 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 16:25:24,169 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:25:24,172 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:25:24,177 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 16:26:00,436 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:26:00,438 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:26:00,441 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-21 16:26:09,961 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:26:09,963 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:26:09,966 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\src\test\resources
+2026-02-21 16:26:55,857 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:26:55,858 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:26:55,864 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:27:00,586 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:27:00,587 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:27:00,592 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:45:34,184 [Worker-41: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - File not found: C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:877)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:299)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:585)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:487)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:366)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:318)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: File not found: C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\prestamos-service\pom.xml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 27 common frames omitted
+2026-02-21 16:46:25,479 [Worker-39: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - File not found: C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\biblioteca-Entity\pom.xml.
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\biblioteca-Entity\pom.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:877)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:299)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:585)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:487)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:366)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:318)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: File not found: C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\biblioteca-Entity\pom.xml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 27 common frames omitted
+2026-02-21 16:46:26,357 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:usuario-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\pom.xml.
+2026-02-21 16:46:27,069 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.cibertec:biblioteca-Entity:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2026-02-21 16:46:27,917 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:usuario-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\pom.xml.
+2026-02-21 16:46:28,545 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-21 16:46:28,705 [Worker-39: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 16:46:31,272 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\pom.xml.
+2026-02-21 16:46:32,241 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/cibertec/biblioteca-Entity/0.0.1-SNAPSHOT/maven-metadata.xml
+2026-02-21 16:46:32,342 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/cibertec/biblioteca-Entity/0.0.1-SNAPSHOT/biblioteca-Entity-0.0.1-SNAPSHOT.pom
+2026-02-21 16:46:32,344 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.cibertec:biblioteca-Entity:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2026-02-21 16:46:32,709 [Worker-41: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-21 16:46:32,728 [Worker-41: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 16:46:32,786 [Worker-41: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-21 16:46:32,808 [Worker-41: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 16:46:32,923 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/cibertec/biblioteca-Entity/0.0.1-SNAPSHOT/biblioteca-Entity-0.0.1-SNAPSHOT.jar
+2026-02-21 16:46:33,452 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:46:33,472 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:46:33,478 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-21 16:46:34,686 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/cibertec/biblioteca-Entity/0.0.1-SNAPSHOT/biblioteca-Entity-0.0.1-SNAPSHOT-javadoc.jar
+2026-02-21 16:46:34,690 [Worker-39: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.cibertec:biblioteca-Entity:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-02-21 16:48:37,755 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:37,765 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:37,788 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-21 16:48:37,978 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:37,994 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,000 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway\src\test\resources
+2026-02-21 16:48:38,229 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,245 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,252 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\eureka-server\src\test\resources
+2026-02-21 16:48:38,312 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,314 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,316 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-21 16:48:38,357 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,364 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,367 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:48:38,415 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,425 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,428 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 16:48:38,481 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,488 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:48:38,492 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 16:52:03,927 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\pom.xml.
+2026-02-21 16:52:04,219 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:usuario-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\pom.xml.
+2026-02-21 16:52:04,658 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 16:52:04,908 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Libros:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Libros\pom.xml.
+2026-02-21 16:52:05,054 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 16:52:05,105 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 16:52:05,417 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:usuario-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\pom.xml.
+2026-02-21 16:52:05,516 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 16:52:05,772 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:prestamos-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\pom.xml.
+2026-02-21 16:52:06,172 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 16:52:06,174 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-21 16:52:06,196 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-21 16:52:08,016 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\src\main\resources
+2026-02-21 16:52:08,019 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\src\test\resources
+2026-02-21 16:52:08,263 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:52:08,266 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:52:08,269 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-21 16:52:08,529 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:52:08,531 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:52:08,536 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 16:52:08,967 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:52:08,970 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:52:08,975 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 16:52:09,501 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-21 16:52:09,504 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 16:52:09,508 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-21 16:52:10,689 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\src\main\resources
+2026-02-21 16:52:10,691 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\biblioteca-Entity\src\test\resources
+2026-02-21 17:04:50,920 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:04:50,923 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:04:50,931 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-21 17:09:18,181 [Worker-52: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cibertec:usuario-service:0.0.1-SNAPSHOT @ C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\pom.xml.
+2026-02-21 17:09:19,282 [Worker-52: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-21 17:09:20,137 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:09:20,138 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:09:20,142 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-21 17:14:08,263 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:14:08,264 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:14:08,268 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-21 17:14:46,160 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:14:46,162 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:14:46,165 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-21 17:14:54,929 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:14:54,931 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:14:54,934 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-21 17:40:21,615 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:40:21,624 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:40:21,629 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-21 17:40:45,192 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:40:45,194 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-21 17:40:45,198 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:35:37,393 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-02-22 23:44:58,637 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-22 23:44:58,726 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-22 23:44:59,413 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:44:59,469 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:44:59,482 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-22 23:45:12,787 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:12,806 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:13,061 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:13,074 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:13,835 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-amqp/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:13,839 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-amqp/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,319 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,324 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,532 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,544 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,667 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,674 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,796 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,802 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/3.5.11-SNAPSHOT/maven-metadata.xml
+2026-02-22 23:45:14,956 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-22 23:45:14,959 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Libros: com.example:Libros:0.0.1-SNAPSHOT with classifier  to /Libros/target/classes
+2026-02-22 23:45:14,991 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/usuario-service: com.cibertec:usuario-service:0.0.1-SNAPSHOT with classifier  to /usuario-service/target/classes
+2026-02-22 23:45:15,199 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:45:15,234 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:45:15,242 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-22 23:45:21,988 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-22 23:45:22,200 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:45:22,236 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:45:22,245 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-22 23:45:38,415 [Worker-17: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/biblioteca-Entity: com.cibertec:biblioteca-Entity:0.0.1-SNAPSHOT with classifier  to /biblioteca-Entity/target/classes
+2026-02-22 23:45:38,626 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:45:38,661 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:45:38,672 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-22 23:52:46,508 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:52:46,603 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:52:46,611 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:52:55,763 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:52:55,764 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:52:55,770 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:53:01,383 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:53:01,384 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:53:01,389 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:53:08,632 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:53:08,634 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:53:08,639 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:54:02,136 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:54:02,138 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:54:02,142 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:54:43,327 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:54:43,328 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-22 23:54:43,332 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources
+2026-02-22 23:55:46,510 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:55:46,613 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-22 23:55:46,623 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\api-gateway\src\test\resources
+2026-02-23 00:33:50,516 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-23 00:33:50,544 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:33:50,548 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-23 00:33:57,972 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-23 00:33:58,006 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:33:58,011 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-23 00:35:24,136 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-23 00:35:24,159 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:35:24,163 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\trabajadores-service\src\test\resources
+2026-02-23 00:36:10,018 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-23 00:36:10,060 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:36:10,071 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\prestamos-service\src\test\resources
+2026-02-23 00:36:28,619 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-23 00:36:28,626 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:36:28,630 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-02-23 00:48:48,739 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-23 00:48:48,836 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:48:48,845 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\usuario-service\src\test\resources
+2026-02-23 00:58:10,926 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:58:10,928 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-23 00:58:10,931 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_contenedor\Config-server\src\test\resources

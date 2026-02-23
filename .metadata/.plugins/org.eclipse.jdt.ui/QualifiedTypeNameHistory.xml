@@ -12,4 +12,12 @@
     <fullyQualifiedTypeName name="com.cibertec.dto.LibroDto"/>
     <fullyQualifiedTypeName name="com.cibertec.dto.UsuarioDto"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.core.Queue"/>
+    <fullyQualifiedTypeName name="com.cibertec.conf.RabbitMqConf"/>
+    <fullyQualifiedTypeName name="com.rabbitmq.client.AMQP.Connection"/>
+    <fullyQualifiedTypeName name="com.rabbitmq.client.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitAdmin"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitTemplate"/>
 </qualifiedTypeNameHistroy>

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMqConfig {
 
-	@Value("${app.queue.log}")
+	@Value("${app.queue.log:usuario-log-queue}")
 	private String queueLog;
 
 	@Bean

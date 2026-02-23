@@ -7,9 +7,9 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1771394343990_5" label="Microservices" name="Microservices">
 <item elementID="=Libros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=prestamos-service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=trabajadores-service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=usuario-service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=prestamos-service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1771394349187_6" label="SpringCloud" name="SpringCloud">
 <item elementID="=Config-server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
