@@ -1,0 +1,39 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'eureka-server'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-eureka-server:8761']
+
+  - job_name: 'config-server'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-config-server:8888']
+
+  - job_name: 'api-gateway'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-api-gateway:8001']
+
+  - job_name: 'libros-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-libros-service:1001']
+
+  - job_name: 'usuario-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-usuario-service:1003']
+
+  - job_name: 'prestamos-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-prestamos-service:1002']
+
+  - job_name: 'trabajadores-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['biblioteca-trabajadores-service:1004']
