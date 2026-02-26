@@ -308,7 +308,6 @@ INDEX VERSION 1.134+C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_conten
 2560397696.index
 2310982519.index
 630439602.index
-2591414709.index
 1043562513.index
 3125451415.index
 2039361691.index

@@ -21,17 +21,13 @@ public class SecurityConfig {
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
 		http.csrf(csrf -> csrf.disable()).cors(cors -> cors.configurationSource(corsConfigurationSource()))
-				.authorizeHttpRequests(auth -> auth
-
-						.requestMatchers("/api/v1/trabajadores-service-ws/auth/login",
-								"/api/v1/trabajadores-service-ws/auth/crear-admin")
-						.permitAll()
-
+				.authorizeHttpRequests(auth -> auth.requestMatchers("/api/v1/trabajadores-service-ws/auth/login",
+						"/api/v1/trabajadores-service-ws/auth/crear-admin", "/actuator/prometheus" 
+																								
+				).permitAll()
 						.requestMatchers("/api/v1/libros-service-ws/**", "/api/v1/prestamo-service-ws/**",
 								"/api/v1/usuario-service-ws/**", "/api/v1/trabajadores-service-ws/**")
-						.hasAnyRole("Administrador", "Bibliotecario")
-
-						.anyRequest().authenticated())
+						.hasAnyRole("Administrador", "Bibliotecario").anyRequest().authenticated())
 				.sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
