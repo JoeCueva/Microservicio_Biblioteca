@@ -1,7 +1,9 @@
 package com.cibertec.controller;
 
 import java.util.List;
-
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +22,7 @@ import com.cibertec.dto.PrestamoRequest;
 import com.cibertec.dto.PrestamoResponse;
 import com.cibertec.dto.PrstamoDetalleCompletoDto;
 import com.cibertec.service.PrestamoService;
+import com.cibertec.service.ReporteService;
 
 @RestController
 @RequestMapping("/api/v1/prestamo-service-ws")
@@ -27,6 +30,9 @@ public class PrestamoController {
 
 	@Autowired
 	private PrestamoService prestamosService;
+
+	@Autowired
+	private ReporteService reporteService;
 
 	@GetMapping
 	public List<PrestamoResponse> getPrestamos() {
@@ -71,5 +77,21 @@ public class PrestamoController {
 	public ResponseEntity<PrstamoDetalleCompletoDto> getDetalleCompleto(@PathVariable Integer id) {
 		PrstamoDetalleCompletoDto detalle = prestamosService.getDetalleCompleto(id);
 		return ResponseEntity.ok(detalle);
+	}
+
+	@GetMapping("/reporte/ficha")
+	public ResponseEntity<byte[]> descargarFicha(@RequestParam(required = false) Integer id) {
+
+		byte[] pdfBytes = reporteService.generarFichaPrestamo(id);
+		if (pdfBytes != null) {
+			HttpHeaders headers = new HttpHeaders();
+			headers.setContentType(MediaType.APPLICATION_PDF);
+
+			headers.setContentDispositionFormData("inline", "Ficha_Prestamo.pdf");
+			return ResponseEntity.ok().headers(headers).body(pdfBytes);
+		} else {
+			return ResponseEntity.internalServerError().build();
+		}
+
 	}
 }

@@ -20,6 +20,10 @@ RUN mvn -f prestamos-service/pom.xml clean package -DskipTests
 
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
+# --- AQUÍ ESTÁ LA MODIFICACIÓN CLAVE ---
+# Instalamos fontconfig y fuentes base necesarias para JasperReports
+RUN apk add --no-cache fontconfig ttf-dejavu
+# ---------------------------------------
 COPY --from=builder /workspace/prestamos-service/target/*.jar prestamos-service.jar
 EXPOSE 1002
 ENTRYPOINT ["java", "-jar", "prestamos-service.jar"]
