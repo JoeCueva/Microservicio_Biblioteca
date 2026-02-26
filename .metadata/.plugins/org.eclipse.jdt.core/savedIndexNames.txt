@@ -34,6 +34,7 @@ INDEX VERSION 1.134+C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_conten
 3423916579.index
 2242504480.index
 2855607889.index
+560919466.index
 2885896696.index
 2043761387.index
 419992488.index
@@ -76,14 +77,15 @@ INDEX VERSION 1.134+C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_conten
 1813196013.index
 608322739.index
 422598432.index
-2512747815.index
-960910144.index
 3409868174.index
 1558391759.index
+2512747815.index
+960910144.index
 3539460999.index
 471198742.index
 154198747.index
 2041797725.index
+1204933769.index
 3946436051.index
 1626762901.index
 1995421453.index
@@ -226,6 +228,7 @@ INDEX VERSION 1.134+C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_conten
 3529970508.index
 4105483395.index
 3645245192.index
+1979781909.index
 1926052617.index
 2463051373.index
 778708469.index
@@ -262,6 +265,7 @@ INDEX VERSION 1.134+C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_conten
 2397643215.index
 3033841528.index
 1197325816.index
+185456847.index
 2726424797.index
 3218578408.index
 826906864.index
@@ -308,6 +312,7 @@ INDEX VERSION 1.134+C:\Users\joesc\OneDrive\Desktop\ProyectoBiblioteca\01_conten
 2560397696.index
 2310982519.index
 630439602.index
+2591414709.index
 1043562513.index
 3125451415.index
 2039361691.index

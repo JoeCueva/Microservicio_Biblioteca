@@ -1,5 +1,0 @@
-package com.cibertec.security;
-
-public class PasswordEncoderConfig {
-
-}
